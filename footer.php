@@ -19,16 +19,16 @@
                 <h6 class="text-uppercase">Brand</h6>
                 <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p>
-                    <a href="https://www.expertsaloncare.co.in/brand_home">Home</a>
+                    <a href="#0">Home</a>
                 </p>
                 <p>
-                    <a href="https://www.expertsaloncare.co.in/about_us">About</a>
+                    <a href="#0">About</a>
                 </p>
                 <p>
-                    <a href="https://www.expertsaloncare.co.in/explore_our_range">Products</a>
+                    <a href="#0">Products</a>
                 </p>
                 <p>
-                    <a href="https://www.expertsaloncare.co.in/explore_our_services">Services</a>
+                    <a href="#0">Services</a>
                 </p>
             </div>
             <!-- Grid column -->
@@ -38,16 +38,16 @@
                 <h6 class="text-uppercase">Useful links</h6>
                 <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p>
-                    <a href="https://www.expertsaloncare.co.in/terms_conditions">Terms &amp; Conditions</a>
+                    <a href="#0">Terms &amp; Conditions</a>
                 </p>
                 <p>
-                    <a href="https://www.expertsaloncare.co.in/terms_use">Terms of Use</a>
+                    <a href="#0">Terms of Use</a>
                 </p>
                 <p>
-                    <a href="https://www.expertsaloncare.co.in/privacy_policy">Privacy Policy</a>
+                    <a href="#0">Privacy Policy</a>
                 </p>
                 <p>
-                    <a href="https://www.expertsaloncare.co.in/cookie_table">Cookie Settings</a>
+                    <a href="#0">Cookie Settings</a>
                 </p>
             </div>
             <!-- Grid column -->
@@ -106,16 +106,16 @@
                 <h6 class="text-uppercase">Brand</h6>
                 <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p>
-                    <a href="https://www.expertsaloncare.co.in/brand_home">Home</a>
+                    <a href="#0">Home</a>
                 </p>
                 <p>
-                    <a href="https://www.expertsaloncare.co.in/about_us">About</a>
+                    <a href="#0">About</a>
                 </p>
                 <p>
-                    <a href="https://www.expertsaloncare.co.in/explore_our_range">Products</a>
+                    <a href="#0">Products</a>
                 </p>
                 <p>
-                    <a href="https://www.expertsaloncare.co.in/explore_our_services">Services</a>
+                    <a href="#0">Services</a>
                 </p>
             </div>
             <!-- Grid column -->
@@ -125,16 +125,16 @@
                 <h6 class="text-uppercase">Useful Links</h6>
                 <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p>
-                    <a href="https://www.expertsaloncare.co.in/terms_conditions">Terms &amp; Conditions</a>
+                    <a href="#0">Terms &amp; Conditions</a>
                 </p>
                 <p>
-                    <a href="https://www.expertsaloncare.co.in/terms_use">Terms of Use</a>
+                    <a href="#0">Terms of Use</a>
                 </p>
                 <p>
-                    <a href="https://www.expertsaloncare.co.in/privacy_policy">Privacy Policy</a>
+                    <a href="#0">Privacy Policy</a>
                 </p>
                 <p>
-                    <a href="https://www.expertsaloncare.co.in/cookie_table">Cookie Settings</a>
+                    <a href="#0">Cookie Settings</a>
                 </p>
             </div>
             <!-- Grid column -->
