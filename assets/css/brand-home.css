@@ -1,0 +1,120 @@
+*:focus {
+    outline: none;
+    border: none;
+}
+.brand-home-section {
+    width: 100%;
+    outline: none !important;
+}
+.brand-home-section:focus {
+    border: none;
+}
+.brand-banner {
+    width: 100%;
+    height: auto;
+    outline: none !important;
+    margin-bottom: 0 !important;
+}
+.brand-banner .slick-dots {
+    bottom: 15px !important;
+}
+.brand-banner .slick-dots li button:before {
+    background-color: black;
+    color: transparent;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.brand-banner .slick-dots li button:hover, .brand-banner .slick-dots li.slick-active button {
+    opacity: .75;
+    color: transparent;
+}
+.brand-banner-item {
+    width: 100%;
+    height: auto;
+}
+.brand-banner-item img {
+    width: 100%;
+    height: auto;
+    /* max-height: 500px;
+    object-fit: cover; */
+}
+.brand-home-section .explore-more-section {
+    width: 100%;
+    padding: 10px 25px;
+}
+.brand-home-section .explore-more-section .explore-more {
+    margin-bottom: 0;
+}
+.explore-concern-section {
+    padding: 20px 0;
+}
+.concern-listing {
+
+}
+.concern-list-item {
+
+}
+.concern-box {
+    width: 100%;
+    max-width: 300px;
+    height: 120px;
+    /* background-color: rgba(0,0,0,0.5); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.concern-name {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    margin-bottom: 0;
+}
+.concern-img-box {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 2px 2px 15px 0px rgba(0,0,0,.2);
+    /* border-radius: 8px; */
+    transition: all 0.5s ease-in;
+    /* border: none; */
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.concern-img-box img {
+    max-width: 240px;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    /* transition: all 0.3s ease-in; */
+}
+.concern-img-box:hover {
+    box-shadow: none;
+    background-color: #fff;
+    border-color: #ddd;
+    /* transition: all 0.3s ease-in; */
+}
+@media screen and (max-width: 480px) {
+    .explore-concern-section {
+        padding-top: 60px;
+    }
+    .concern-listing {
+        padding: 0 10px;
+    }
+    .concern-list-item {
+        padding: 0 8px;
+    }
+    .concern-box {
+        margin-bottom: 15px;
+    }
+    .concern-img-box {
+        padding: 5px;;
+        margin-bottom: 16px;
+    }
+}

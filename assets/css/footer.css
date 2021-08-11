@@ -1,0 +1,100 @@
+.unique-color-dark {
+    background-color: #000;
+    padding-top: 20px;
+}
+.white-text {
+    color: #fff;
+}
+.footer-left-section {
+    /* display: flex;
+    align-items: center; */
+}
+.footer-left-section, .footer-links-section, .footer-connect-section {
+    color: #ccc;
+}
+.footer-left-section h6, .footer-links-section h6, .footer-connect-section h6 {
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    color: #ccc;
+}
+.footer-left-section hr, .footer-links-section hr, .footer-connect-section hr {
+    background-color: #999;
+    display: none !important;
+}
+.footer-left-section img {
+    margin-bottom: 10px;
+}
+.footer-left-section .footer-logo {
+    max-width: 200px;
+}
+.footer-links-section a {
+    color: #aaa;
+}
+.footer-connect-section a {
+    color: #aaa;
+    /* display: inline-block; */
+    /* margin-bottom: 10px; */
+}
+.footer-copyright {
+    border-top: 1px solid #111;
+    color: #666;
+    font-size: 14px;
+    letter-spacing: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-copyright a {
+    color: #666;
+    text-decoration: underline;
+}
+.disclaimer-section {
+    margin-top: 30px;
+    padding: 10px;
+    font-style: italic;
+    color: #999;
+    text-align: center;
+}
+.other-brands-section {
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 0;
+}
+.other-brands-section .other-brands-msg {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 0;
+}
+.other-brands-section .other-brands-msg a {
+    font-weight: bold;
+    text-decoration: underline;
+    display: inline-block;
+    color: #fff;
+}
+.footer-salon-name {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 100;
+    font-family: sans-serif !important;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+@media screen and (max-width: 480px) {
+    .footer-left-section, .footer-connect-section {
+        text-align: center;
+        padding: 0 20px;
+    }   
+    .footer-links-section {
+        text-align: left;
+        padding: 0 20px;
+    }
+    .footer-left-section h6, .footer-links-section h6, .footer-connect-section h6 {
+        font-size: 14px;
+    }
+    .social-inline {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,419 @@
+body {
+    background-color: #fff;
+    padding-top: 62px;
+}
+.no-display {
+    display: none !important;
+}
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+.mb-80 {
+    margin-bottom: 80px !important;
+}
+.main-banner-section {
+    height: 400px;
+    background-color: #f1f1f1;
+    position: relative;
+    display: flex;
+}
+.main-video {
+    width: 100%;
+    height: 400px;
+    object-position: top;
+    object-fit: cover;
+}
+.main-banner-msg {
+    display: none;
+    position: absolute;
+    right: 50px;
+    bottom: 100px;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    text-transform: uppercase;
+    text-align: center;
+}
+.main-banner-msg h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+.main-banner-msg h3 {
+    font-size: 32px;
+    font-weight: 600;
+}
+.intro-msg-section {
+    width: 100%;
+    position: relative;
+    margin-bottom: 50px;
+}
+.intro-msg-section .intro-box {
+    width: 100%;
+    background-color: #fff;
+    margin-top: -50px;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.20);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.20);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.20);
+    text-align: center;
+    padding: 50px 20px;
+    text-transform: uppercase;
+}
+.intro-box .main-title {
+    
+    font-size: 42px;
+    font-weight: 400;
+    color: #000;
+}
+.intro-box .main-subtitle {
+   
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #212121;
+}
+.intro-content {
+   
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: none;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+.discover-btn {
+    background-color: #000;
+    /* border: 1px solid #000; */
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 300;
+    padding: 13px 40px;
+    display: inline-block;
+    /* height: 50px; */
+    
+}
+.discover-btn:hover{
+    background-color: #e8e8e8;
+    color: #000 !important;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.0);
+}
+
+.featered-products-section {
+    padding: 50px 0;
+    margin-bottom: 30px;
+}
+.f-product-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 60px;
+    position: relative;
+}
+.f-product-title {
+    text-transform: capitalize;
+    font-weight: 600;
+   
+    margin-bottom: 0;
+    font-size: 24px;
+}
+.f-view-more-btn {
+    color: #000;
+    font-size: 14px;
+    text-decoration: underline;
+    margin-right: 15px;
+}
+.div-line {
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+}
+.f-action {
+    display: flex;
+}
+.f-prev-btn, .f-next-btn {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #000;
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    outline: none;
+    cursor: pointer;
+    opacity: 0.4;
+}
+.f-prev-btn {
+    margin-right: 2px;
+}
+.f-prev-btn:hover, .f-next-btn:hover {
+    opacity: 1;
+    outline: none;
+}
+.f-product-slider {}
+
+.f-product-slider .product-itm {
+    padding: 0 20px;
+    margin-bottom: 0;
+    margin-right: 20px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    outline: none;
+    height: auto;
+  }
+.f-product-slider .product-itm:hover {
+    text-decoration: none;
+}
+.f-product-slider .product-itm img {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+    /* padding-top: 0; */
+    padding: 15px;
+  }
+.f-product-slider .product-title {
+    font-family: 'content-font-bold', sans-serif !important;
+   line-height: 21px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    height: 50px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #333;
+    margin: 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+  }
+.f-product-slider .short-dis {
+    font-style: normal;
+    /* font-weight: 300; */
+    font-size: 14px;
+    height: 70px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #999;
+    margin-bottom: 8px;
+      /* padding-top: 20px; */
+      /* border-top: 1px solid #ccc; */
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+  }
+  .f-product-slider .product-price {
+     font-size: 14px;
+     margin-bottom: 0;
+     color: #000;   
+  }
+.f-product-slider .cart-btn {
+    background: #242424;
+      /* box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25); */
+      margin-top: 20px;
+      padding: 10px 30px;
+      font-size: 12px;
+      text-transform: capitalize;
+      letter-spacing: 0.5px;
+      color: #fff;
+      border-radius: 0;
+  }
+.f-product-slider .cart-btn i {
+    font-size: 14px;
+    margin-left: 7px;
+  }
+.f-ritual-slider {
+
+}
+.f-ritual-slider .ritual-itm-container {
+    padding: 0 15px;
+}
+.f-ritual-slider .ritual-itm-container:first-child {
+    padding-left: 0;
+}
+.f-ritual-slider .ritual-itm {
+    width: 100%;
+    height: 250px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    display: block;
+    position: relative;
+}
+.f-ritual-slider .ritual-itm img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.f-ritual-slider .ritual-itm .ritual-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    
+    letter-spacing: 1px;
+    padding: 20px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+.ritual-itm .ritual-info .ritual-line {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.30);
+    -moz-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.30);
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.30);
+}
+.ritual-itm .ritual-info .ritual-name {    
+    /* font-size: 24px; */
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.ritual-itm .ritual-info .ritual-lbl {    
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+    opacity: 0.9;
+}
+.k-content-section {
+    padding: 100px 0 150px 0;
+}
+.k-content-section .k-content-title {
+   
+    color: #000;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.btn-mar-btm{
+    margin-bottom: 60px;
+}
+.k-content-section .k-content-subtitle {
+    
+    font-size: 18px;
+    color: #212121;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 36px;
+}
+.k-content-section .k-content-subtitle strong {
+    color: #212121;
+    font-weight: 600;
+    display: block;
+}
+.k-content-detail-container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.k-content-detail {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    line-height: 40px;   
+}
+.k-content-detail-lg {
+    font-size: 24px;
+    margin-bottom: 35px;
+    line-height: 40px;
+}
+.k-content-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.k-content-img {
+    max-width: 100%;
+    display: block;
+    object-fit: contain;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+@media screen and (max-width: 480px) {
+    body {
+        padding-top: 59px;
+    }
+    .main-banner-section, .main-video {
+        height: 200px;
+    }
+    .intro-msg-section .intro-box {
+        margin-top: -30px;
+        padding: 20px 20px;
+    }
+    .intro-box .main-title {
+        font-size: 30px;
+    margin-bottom: 0;
+    }
+    .intro-box .main-subtitle {
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        line-height: 25px;
+        margin-bottom: 2px !important;
+        margin-top: 1px;
+    }
+    .discover-btn{
+        padding: 13px 30px;
+    }
+    
+    .intro-content {
+        font-size: 16px;
+        line-height: 26px;
+        margin: 0 auto 7px;
+    }
+    .f-product-header {
+        margin-bottom: 50px;
+    }
+    .f-product-title {
+        max-width: 160px;
+    }
+    .featered-products-section {
+        padding-bottom: 10px;
+        margin-bottom: 0;
+    }
+    .f-product-slider .product-itm {
+        padding: 0 10px;
+        margin-right: 0;
+    }
+    .f-product-slider .product-title {
+        height: 65px;
+    }
+    .f-product-slider .product-itm img {
+        padding: 8px;
+    }
+    .f-product-slider .short-dis {
+        line-height: 22px;
+        padding-top: 5px;
+    }
+    .k-content-section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .k-content-section .k-content-subtitle {
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+    .k-content-detail {
+        text-align: center !important;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .k-content-img {
+        margin-bottom: 15px;
+    }
+    .f-product-slider .cart-btn{
+        padding: 8px 14px;  
+    }
+}
