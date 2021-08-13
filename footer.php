@@ -19,10 +19,10 @@
                 <h6 class="text-uppercase">Brand</h6>
                 <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p>
-                    <a href="#0">Home</a>
+                    <a href="<?=get_url()?>">Home</a>
                 </p>
                 <p>
-                    <a href="#0">About</a>
+                    <a href="<?=get_url('about')?>">About</a>
                 </p>
                 <p>
                     <a href="#0">Products</a>
@@ -106,10 +106,10 @@
                 <h6 class="text-uppercase">Brand</h6>
                 <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p>
-                    <a href="#0">Home</a>
+                    <a href="<?=get_url()?>">Home</a>
                 </p>
                 <p>
-                    <a href="#0">About</a>
+                    <a href="<?=get_url('about')?>">About</a>
                 </p>
                 <p>
                     <a href="#0">Products</a>
@@ -167,7 +167,7 @@
     <!-- Footer Links -->
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">
-        © 2020 Copyright
+        © <?=date('Y')?> Copyright
         <!-- <a href="https://www.kerastase.com/">Kérastase</a> -->
         . All rights reserved.
     </div>

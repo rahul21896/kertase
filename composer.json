@@ -1,0 +1,11 @@
+{
+    "name": "rahuldhamecha/kertase",
+    "type": "library",
+    "license": "GPL",
+    "require": {},
+    "autoload": {
+        "files": [
+            "helpers.php"
+        ]
+    }
+}
