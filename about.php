@@ -364,6 +364,15 @@ include 'footer.php';
         slidesToScroll: 1,
         dots: false,
     });
+
+    $("#toggle2, .close-menu2").on('click',function()
+    {
+        $(".mobile-menu").toggleClass('mobile-menu-show');
+        $("body").toggleClass('no-overflow');
+        return false;
+    });
+
+
 </script>
 </body>
 </html>

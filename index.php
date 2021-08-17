@@ -8,11 +8,6 @@
     <meta name="bi" content="kerastase">
     <!-- TITLE -->
     <title>Home | Kérastase</title>
-    <!-- <link rel="apple-touch-icon" sizes="180x180" href="https://www.expertsaloncare.co.in/assets/img/favicon_io/apple-touch-icon.png">
-       <link rel="icon" type="image/png" sizes="32x32" href="https://www.expertsaloncare.co.in/assets/img/favicon_io/favicon-32x32.png">
-       <link rel="icon" type="image/png" sizes="16x16" href="https://www.expertsaloncare.co.in/assets/img/favicon_io/favicon-16x16.png">
-       <link rel="manifest" href="https://www.expertsaloncare.co.in/assets/img/favicon_io/site.webmanifest"> -->
-    <!-- Bootstrap Min CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Owl Carousel Min CSS -->
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
@@ -123,16 +118,16 @@ include 'header.php';
 <section class="brand-home-section">
     <div id="brand-banner" class="brand-banner">
         <a href="#0" tabindex="-1">
-            <img src="assets/homepage_banner/ElixerUltime.jpg" style="width: 100%;">
+            <img src="assets/image/homepage_banner/ElixerUltime.jpg" style="width: 100%;">
         </a>
         <a href="#0" tabindex="-1">
-            <img src="assets/homepage_banner/MostLoved.jpg" style="width: 100%;">
+            <img src="assets/image/homepage_banner/MostLoved.jpg" style="width: 100%;">
         </a>
         <a href="#0" onclick="someFunction(&#39;2 &#39;,&#39;Genesis&#39;);" tabindex="-1">
-            <img src="assets/homepage_banner/Floral%20Banner.jpg" style="width: 100%;">
+            <img src="assets/image/homepage_banner/Floral%20Banner.jpg" style="width: 100%;">
         </a>
         <a href="#0" tabindex="0">
-            <img src="assets/homepage_banner/FusioDose%20Treatment.jpg" style="width: 100%;">
+            <img src="assets/image/homepage_banner/FusioDose%20Treatment.jpg" style="width: 100%;">
         </a>
     </div>
     <section class="explore-more-section">
@@ -140,21 +135,21 @@ include 'header.php';
             <div class="col-md-4 p-2">
                 <a href="#0" class="explore-more">
                     <div class="overlay"></div>
-                    <img src="assets/menu_block_collections/discover_our_collection.jpg" alt="DISCOVER OUR COLLECTIONS">
+                    <img src="assets/image/menu_block_collections/discover_our_collection.jpg" alt="DISCOVER OUR COLLECTIONS">
                     <h4>DISCOVER OUR COLLECTIONS</h4>
                 </a>
             </div>
             <div class="col-md-4 p-2">
                 <a href="#0" class="explore-more">
                     <div class="overlay"></div>
-                    <img src="assets/menu_block_collections/discover_in_our_salon.jpg" alt="DISCOVER OUR RITUALS">
+                    <img src="assets/image/menu_block_collections/discover_in_our_salon.jpg" alt="DISCOVER OUR RITUALS">
                     <h4>DISCOVER OUR RITUALS</h4>
                 </a>
             </div>
             <div class="col-md-4 p-2">
                 <a href="#0" class="explore-more">
                     <div class="overlay"></div>
-                    <img src="assets/menu_block_collections/consult.jpg" alt="CONSULT AN EXPERT">
+                    <img src="assets/image/menu_block_collections/consult.jpg" alt="CONSULT AN EXPERT">
                     <h4>CONSULT AN EXPERT</h4>
                 </a>
             </div>
@@ -292,7 +287,7 @@ include 'header.php';
                     <div class="col-md-3 col-6 concern-list-item">
                         <a href="#0">
                             <div class="concern-img-box ">
-                                <img src="assets/concern/1.%20Dull,%20lack-lustre%20hair.png">
+                                <img src="assets/image/concern/1.%20Dull,%20lack-lustre%20hair.png">
                             </div>
                             <div style="background-color: ;" class="concern-box  d-none ">
                                 <p class="concern-name">Dull, lack-lustre hair</p>
@@ -302,7 +297,7 @@ include 'header.php';
                     <div class="col-md-3 col-6 concern-list-item">
                         <a href="#0">
                             <div class="concern-img-box ">
-                                <img src="assets/concern/2.%20Frizzy,%20unmanageable%20hair.png">
+                                <img src="assets/image/concern/2.%20Frizzy,%20unmanageable%20hair.png">
                             </div>
                             <div style="background-color: ;" class="concern-box  d-none ">
                                 <p class="concern-name">Frizzy, unmanageable hair</p>
@@ -312,7 +307,7 @@ include 'header.php';
                     <div class="col-md-3 col-6 concern-list-item">
                         <a href="#0">
                             <div class="concern-img-box ">
-                                <img src="assets/concern/3.%20Colour-treated%20hair.png">
+                                <img src="assets/image/concern/3.%20Colour-treated%20hair.png">
                             </div>
                             <div style="background-color: ;" class="concern-box  d-none ">
                                 <p class="concern-name">Colour-treated hair</p>
@@ -322,7 +317,7 @@ include 'header.php';
                     <div class="col-md-3 col-6 concern-list-item">
                         <a href="#0">
                             <div class="concern-img-box ">
-                                <img src="assets/concern/5.%20Thinning%20hair.png">
+                                <img src="assets/image/concern/5.%20Thinning%20hair.png">
                             </div>
                             <div style="background-color: ;" class="concern-box  d-none ">
                                 <p class="concern-name">Thinning hair</p>
@@ -332,7 +327,7 @@ include 'header.php';
                     <div class="col-md-3 col-6 concern-list-item">
                         <a href="#0" >
                             <div class="concern-img-box ">
-                                <img src="assets/concern/6.%20Normal%20-%20dry%20hair.png">
+                                <img src="assets/image/concern/6.%20Normal%20-%20dry%20hair.png">
                             </div>
                             <div style="background-color: ;" class="concern-box  d-none ">
                                 <p class="concern-name">Normal - dry hair</p>
@@ -342,7 +337,7 @@ include 'header.php';
                     <div class="col-md-3 col-6 concern-list-item">
                         <a href="#0">
                             <div class="concern-img-box ">
-                                <img src="assets/concern/7.%20Weak,%20brittle%20_%20damaged%20hair.png">
+                                <img src="assets/image/concern/7.%20Weak,%20brittle%20_%20damaged%20hair.png">
                             </div>
                             <div style="background-color: ;" class="concern-box  d-none ">
                                 <p class="concern-name">Weak, brittle &amp; damaged hair</p>
@@ -352,7 +347,7 @@ include 'header.php';
                     <div class="col-md-3 col-6 concern-list-item">
                         <a href="#0">
                             <div class="concern-img-box ">
-                                <img src="assets/concern/8.%20Rebellious,%20thick%20hair.png">
+                                <img src="assets/image/concern/8.%20Rebellious,%20thick%20hair.png">
                             </div>
                             <div style="background-color: ;" class="concern-box  d-none ">
                                 <p class="concern-name">Rebellious, thick hair</p>
@@ -362,7 +357,7 @@ include 'header.php';
                     <div class="col-md-3 col-6 concern-list-item">
                         <a href="#0">
                             <div class="concern-img-box ">
-                                <img src="assets/concern/9.%20Hair%20breakage.png">
+                                <img src="assets/image/concern/9.%20Hair%20breakage.png">
                             </div>
                             <div style="background-color: ;" class="concern-box  d-none ">
                                 <p class="concern-name">Hair breakage</p>
@@ -372,7 +367,7 @@ include 'header.php';
                     <div class="col-md-3 col-6 concern-list-item">
                         <a href="#0">
                             <div class="concern-img-box ">
-                                <img src="assets/concern/10.%20Scalp%20concerns.png">
+                                <img src="assets/image/concern/10.%20Scalp%20concerns.png">
                             </div>
                             <div style="background-color: ;" class="concern-box  d-none ">
                                 <p class="concern-name">Scalp concerns</p>
@@ -382,7 +377,7 @@ include 'header.php';
                     <div class="col-md-3 col-6 concern-list-item">
                         <a href="#0">
                             <div class="concern-img-box ">
-                                <img src="assets/concern/11.%20Improved%20hair%20quality.png">
+                                <img src="assets/image/concern/11.%20Improved%20hair%20quality.png">
                             </div>
                             <div style="background-color: ;" class="concern-box  d-none ">
                                 <p class="concern-name">Improved hair quality</p>
@@ -392,7 +387,7 @@ include 'header.php';
                     <div class="col-md-3 col-6 concern-list-item">
                         <a href="#0">
                             <div class="concern-img-box ">
-                                <img src="assets/concern/12.%20Prelightened%20_%20naturally%20grey%20hair.png">
+                                <img src="assets/image/concern/12.%20Prelightened%20_%20naturally%20grey%20hair.png">
                             </div>
                             <div style="background-color: ;" class="concern-box  d-none ">
                                 <p class="concern-name">Prelightened / naturally grey hair</p>
@@ -402,7 +397,7 @@ include 'header.php';
                     <div class="col-md-3 col-6 concern-list-item">
                         <a href="#0">
                             <div class="concern-img-box ">
-                                <img src="assets/concern/13.Hair%20in%20need%20of%20rejuvenation.png">
+                                <img src="assets/image/concern/13.Hair%20in%20need%20of%20rejuvenation.png">
                             </div>
                             <div style="background-color: ;" class="concern-box  d-none ">
                                 <p class="concern-name">Hair in need of rejuvenation</p>
@@ -412,7 +407,7 @@ include 'header.php';
                     <div class="col-md-3 col-6 concern-list-item">
                         <a href="#0">
                             <div class="concern-img-box ">
-                                <img src="assets/concern/14.%20Natural-origin%20Haircare.png">
+                                <img src="assets/image/concern/14.%20Natural-origin%20Haircare.png">
                             </div>
                             <div style="background-color: ;" class="concern-box  d-none ">
                                 <p class="concern-name">Natural-origin Haircare</p>
@@ -426,7 +421,7 @@ include 'header.php';
                     <div class="col-md-3 col-6 concern-list-item">
                         <a href="#0">
                             <div class="concern-img-box ">
-                                <img src="assets/concern/1.%20Dull,%20lack-lustre%20hair.png">
+                                <img src="assets/image/concern/1.%20Dull,%20lack-lustre%20hair.png">
                             </div>
                             <div style="background-color : ;" class="concern-box  d-none ">
                                 <p class="concern-name">Dull, lack-lustre hair</p>
@@ -436,7 +431,7 @@ include 'header.php';
                     <div class="col-md-3 col-6 concern-list-item">
                         <a href="#0">
                             <div class="concern-img-box ">
-                                <img src="assets/concern/2.%20Frizzy,%20unmanageable%20hair.png">
+                                <img src="assets/image/concern/2.%20Frizzy,%20unmanageable%20hair.png">
                             </div>
                             <div style="background-color : ;" class="concern-box  d-none ">
                                 <p class="concern-name">Frizzy, unmanageable hair</p>
@@ -446,7 +441,7 @@ include 'header.php';
                     <div class="col-md-3 col-6 concern-list-item">
                         <a href="#0">
                             <div class="concern-img-box ">
-                                <img src="assets/concern/3.%20Colour-treated%20hair.png">
+                                <img src="assets/image/concern/3.%20Colour-treated%20hair.png">
                             </div>
                             <div style="background-color : ;" class="concern-box  d-none ">
                                 <p class="concern-name">Colour-treated hair</p>
@@ -456,7 +451,7 @@ include 'header.php';
                     <div class="col-md-3 col-6 concern-list-item">
                         <a href="#0">
                             <div class="concern-img-box ">
-                                <img src="assets/concern/5.%20Thinning%20hair.png">
+                                <img src="assets/image/concern/5.%20Thinning%20hair.png">
                             </div>
                             <div style="background-color : ;" class="concern-box  d-none ">
                                 <p class="concern-name">Thinning hair</p>
@@ -664,6 +659,16 @@ include 'footer.php';
         slidesToScroll: 1,
         dots: false,
     });
+
+
+    $("#toggle2, .close-menu2").on('click',function()
+    {
+        $(".mobile-menu").toggleClass('mobile-menu-show');
+        $("body").toggleClass('no-overflow');
+        return false;
+    });
+
+
 </script>
 </body>
 </html>

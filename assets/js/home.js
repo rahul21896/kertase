@@ -40,8 +40,19 @@ $(document).ready(function(){
 $('#p-prev').click(function() {
   $('.f-product-slider').slick('slickPrev');
 });
+
+
 $('#p-next').click(function() {
   $('.f-product-slider').slick('slickNext');
+});
+
+$('#cp-prev').click(function() {
+    $('.f-product-slider2').slick('slickPrev');
+});
+
+
+$('#cp-next').click(function() {
+    $('.f-product-slider2').slick('slickNext');
 });
 $('#r-prev').click(function() {
   $('.f-ritual-slider').slick('slickPrev');
