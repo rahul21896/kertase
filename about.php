@@ -363,6 +363,29 @@ include 'footer.php';
         slidesToShow: 4,
         slidesToScroll: 1,
         dots: false,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow:3,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            }
+        ],
     });
 
     $("#toggle2, .close-menu2").on('click',function()
